@@ -1,0 +1,25 @@
+img{
+	height: 100px;
+	width: 100px;
+}
+
+h1{
+	font-family: 'Helvetica'
+}
+
+button{
+	background: grey;
+	color:white;
+	height: 80px;
+	width:200 px;
+	transition: background .2s;
+}
+
+button:hover{
+	background: blue;
+	transform: scale(2);
+}
+
+.rightside{
+	float: right;
+}
